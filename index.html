@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 
 <!-- css linking -->
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<!-- <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" /> -->
 <link rel="stylesheet" type="text/css" href="css/grid.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
 
@@ -16,11 +16,14 @@
 <title>Gatsby</title>
 
 <img style="position:absolute; width:100%;"/>  <!-- src="img\grid.png" -->
-<div class="container">
 
-	<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
+<!--================= Home Page =========================================== -->
 
-	<div class="existingCustomerBox push_one six"></div>
+	<div class="container" id="homePage">
+		<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
+
+		<div class="existingCustomerBox push_one six"></div>
+
 		<div class="push_one boxTitle">
 			<h1>Existing Customer</h1>
 			<h2>Enter any one of the details&mdash;</h2>
@@ -29,21 +32,68 @@
 		<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Full Name"/>
 		<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Phone Number"/>
 		<input class="email six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Email"/>
+
 		<img class="fnameImg push_one" src="img\name.png" > </img>
 		<img class="numImg push_one" src="img\phone.png" > </img>
 		<img class="emailImg push_one" src="img\email.png" > </img>
 
-		<img class="searchButton eight">
+		<img onclick="forward(1)" class="searchButton eight">
 		<a class="push_one searchText" title="Search">Search</a>
 		<img class="searchImg push_six" src="img\buttons\search.png">
 
 		<div class="push_three ortext"><a>&mdash; or &mdash;</a></div>
 
-		<img onclick="#" class="newCustomerButton eight">
+		<img onclick="forward(2)" class="newCustomerButton eight">
 		<a class=" push_one newCustomerText" title="New Customer">New Customer</a>
 		<img class="newCustomerImg push_six" src="img\buttons\newCustomer.png">
+	</div>
 
-</div>
+
+<!--================= New Customer Page =================================== -->
+
+	<div class="container" id="addNewCustomer" style="display:none">
+		<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
+		<div class="existingCustomerBox push_one six"></div>
+
+		<div class="push_one boxTitle">
+			<h1>Add New Customer</h1>
+			<h2>Enter details&mdash;</h2>
+		</div>
+
+		<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Full Name"/>
+		<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Phone Number"/>
+		<input class="email six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Email"/>
+		<textarea class="address six push_one" rows="3" type="text" name="Full_Name" id="Full_Name" placeholder="Address"></textarea>
+
+		<img class="fnameImg push_one" src="img\name.png" >
+		<img class="numImg push_one" src="img\phone.png" >
+		<img class="emailImg push_one" src="img\email.png" >
+		<img class="addressImg push_one" src="img\address.png" >
+
+		
+		<img onclick="forward(3)" class="newCustomerButton eight">
+		<a class=" push_one newCustomerText" title="Add to Gatsby">Add to Gatsby</a>
+		<img class="newCustomerImg push_six" src="img\buttons\add.png">
+	</div>
+
+<!--================= Added Page ========================================== -->
+
+	<div class="container" id="addedCustomer" style="display:none">
+		<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
+		
+		<div class="existingCustomerBox push_one six">
+			
+			<div class="addedText push_two">
+				<h1>Added!</h1>
+				<h2>Welcome to the <br>Gatsby Family.</h2>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/ajax_helper.js"></script>
 </body>
 </html>
 
