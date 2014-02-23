@@ -2,9 +2,14 @@
 
 <html>
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+
+<!-- css linking -->
+<!-- <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" /> -->
 <link rel="stylesheet" type="text/css" href="css/grid.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+
+<!-- font linking -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
 
 <body>
 <title>Gatsby</title>
@@ -12,20 +17,21 @@
 <img style="position:absolute; width:100%;"src="img\grid.png" />
 <div class="container">
 
-	<div class="homeRibbon ">
-		<img class="push_eleven five" src ="img/home_ribbon.png">
-	</div>
+	<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
 
-	<div class="existingCustomerBox six">
+	<div class="existingCustomerBox push_one six"></div>
+		<div class="push_one boxTitle">
+			<h1>Existing Customer</h1>
+			<h2>Enter any one of the details&mdash;</h2>
+		</div>
 
-	<div class="boxTitle">
-		<h1>Existing Customer</h1>
-		<h2>Enter any one of the details&mdash;</h2>
-	</div>
-
-	<input class="fullName six" type="text" name="Full_Name" id="Full_Name"/>
-	<img class="nameImg" src="img\name.png" />
-	</div>
+		<!-- <img onclick="#" class="searchButton six" src="img\buttons\btnSmall_default.png"> -->
+		<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name"/>
+		<!-- <img class="nameImg" src="img\name.png" /> -->
+		<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name"/>
+		<!-- <img class="nameImg" src="img\name.png" /> -->
+		<input class="email six push_one" type="text" name="Full_Name" id="Full_Name"/>
+		<!-- <img class="nameImg" src="img\name.png" /> -->
 </div>
 </body>
 </html>

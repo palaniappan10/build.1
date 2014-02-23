@@ -1,0 +1,155 @@
+
+/*Images alone*/
+
+	@media (min-width:1024px ) and (max-width:1024px ) and (min-device-pixel-ratio: 1) {
+
+		}
+
+
+	@media (min-width:1280px ) and (max-width:1280px ) and (min-device-pixel-ratio: 1.5) {
+
+		}
+
+
+	@media (min-width:1280px ) and (max-width:1280px ) and (min-device-pixel-ratio: 1.5) {
+
+		}
+
+
+	@media (min-width:2048px ) and (max-width:2048px ) and (min-device-pixel-ratio: 2) {
+
+		}
+
+/*Rest of all -----------------------------------------------------------------------------------------*/
+
+	@media (min-width:1024px ) and (max-width:1026px ) {
+
+			body 
+			{
+				overflow:hidden; margin: -0px; 
+				background-image: url(../img/bg.jpg); 
+				font-size: 16px;
+			}
+
+
+			h1 
+			{
+				font-size: 2rem;
+				font-family: 'Open Sans';
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			h2 
+			{
+				font-size: 1rem;
+				font-family: 'Open Sans';
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			.homeRibbon
+			{
+				position:absolute; 
+			}
+
+
+			.existingCustomerBox
+			{
+				position: absolute; 
+				border-style: solid; 
+				border-width: 1px; 
+				border-radius: 4px; 
+				border-color: #888;
+				margin-top: 6%;
+				margin-left: 4.5833333333333%;
+				padding-left: 3%;
+				height: 700px;
+				z-index: 0;
+			}
+
+
+			.fullName
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				height: auto;
+				margin-top: 10%;
+				padding-bottom: 2%;
+				z-index: 1;
+			 }
+
+
+			.phoneNum
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				height: auto;
+				margin-top: 20%;
+				padding-bottom: 2%;
+				z-index: 1;
+			}
+
+
+			.email
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				height: auto;
+				margin-top: 30%;
+				padding-bottom: 2%;
+				z-index: 1;
+			}
+
+
+			.nameImg
+			{
+				position: relative;
+				left: 0;
+				z-index: 1;
+				width: 1.5rem;
+			}
+
+
+			.boxTitle
+			{
+				position: absolute;
+				margin-top: 9.333333333333333%;
+			}
+
+			.searchButton
+			{
+
+			}
+
+
+		}
+
+
+	@media (min-width:1280px ) and (max-width:1280px ) {
+
+		}
+
+
+	@media (min-width:2048px ) and (max-width:2048px ) {
+
+		}

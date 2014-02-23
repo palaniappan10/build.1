@@ -22,7 +22,7 @@ h2 {font-size: 24px;
 
 .homeRibbon
 	{
-		position:relative; 
+		position:absolute; 
 	}
 
 
@@ -47,13 +47,13 @@ h2 {font-size: 24px;
 		border-style: solid;
 		border-width: 1px;
 		border-color: #888;
-		border-radius: 10px;
+		border-radius: 4px;
 		background-color: #f5f5f5;
 		box-shadow: 0px 2px 0px 0px #fff;
 		padding-left: 80px;
 		height: auto;
 		padding-bottom: 2%;
-		border-radius: 10px;
+		border-radius: 4px;
 		z-index: 1;
 	 }
 
@@ -67,7 +67,10 @@ h2 {font-size: 24px;
 	}
 
 .boxTitle
-{
-	position: relative;
-}
+	{
+		position: relative;
+	}
+
+
+
 
