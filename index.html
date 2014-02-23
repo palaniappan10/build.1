@@ -9,12 +9,13 @@
 <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
 
 <!-- font linking -->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 
 <body>
 <title>Gatsby</title>
 
-<img style="position:absolute; width:100%;"src="img\grid.png" />
+<img style="position:absolute; width:100%;"/>  <!-- src="img\grid.png" -->
 <div class="container">
 
 	<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
@@ -25,13 +26,24 @@
 			<h2>Enter any one of the details&mdash;</h2>
 		</div>
 
-		<!-- <img onclick="#" class="searchButton six" src="img\buttons\btnSmall_default.png"> -->
-		<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name"/>
-		<!-- <img class="nameImg" src="img\name.png" /> -->
-		<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name"/>
-		<!-- <img class="nameImg" src="img\name.png" /> -->
-		<input class="email six push_one" type="text" name="Full_Name" id="Full_Name"/>
-		<!-- <img class="nameImg" src="img\name.png" /> -->
+		<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Full Name"/>
+		<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Phone Number"/>
+		<input class="email six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Email"/>
+		<img class="fnameImg push_one" src="img\name.png" > </img>
+		<img class="numImg push_one" src="img\phone.png" > </img>
+		<img class="emailImg push_one" src="img\email.png" > </img>
+
+		<img class="searchButton eight">
+		<a class="push_one searchText" title="Search">Search</a>
+		<img class="searchImg push_six" src="img\buttons\search.png">
+
+		<div class="push_three ortext"><a>&mdash; or &mdash;</a></div>
+
+		<img onclick="#" class="newCustomerButton eight">
+		<a class=" push_one newCustomerText" title="New Customer">New Customer</a>
+		<img class="newCustomerImg push_six" src="img\buttons\newCustomer.png">
+
 </div>
 </body>
 </html>
+
