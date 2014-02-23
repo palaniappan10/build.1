@@ -1,0 +1,73 @@
+body {
+	overflow:hidden; margin: -0px; 
+	background-image: url(../img/bg.jpg); 
+	font-size: 16px;
+}
+
+h1 {font-size: 48px;
+	font-family: 'Open Sans';
+	text-shadow: 0px 2px 2px #fff;
+	color: #2c2b2b;
+	margin: 0px;
+}
+
+
+h2 {font-size: 24px;
+	font-family: 'Open Sans';
+	text-shadow: 0px 2px 2px #fff;
+	color: #2c2b2b;
+	margin: 0px;
+}
+
+
+.homeRibbon
+	{
+		position:relative; 
+	}
+
+
+.existingCustomerBox
+	{
+		position: absolute; 
+		border-style: solid; 
+		border-width: 1px; 
+		border-radius: 10px; 
+		border-color: #888;
+		margin-left: 4.5833333333333%;
+		top: 88px;
+		padding: 30px;
+		height: 700px;
+		z-index: 0;
+	}
+
+
+.fullName
+	{
+		position: absolute;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #888;
+		border-radius: 10px;
+		background-color: #f5f5f5;
+		box-shadow: 0px 2px 0px 0px #fff;
+		padding-left: 80px;
+		height: auto;
+		padding-bottom: 2%;
+		border-radius: 10px;
+		z-index: 1;
+	 }
+
+
+.nameImg
+	{
+		position: relative;
+		left: 0;
+		padding: 20px;
+		z-index: 1;
+	}
+
+.boxTitle
+{
+	position: relative;
+}
+
