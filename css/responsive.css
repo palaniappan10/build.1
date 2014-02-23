@@ -81,7 +81,7 @@
 				margin-top: 3.515625%;
 				margin-left: 4.5833333333333%;
 				padding-left: 3%;
-				height: 360px;
+				height: 350px;
 				z-index: 0;
 			}
 
@@ -573,6 +573,303 @@
 			#addedCustomer>.homeRibbon
 			{
 				position:absolute; 
+			}
+
+		/*===========================search page=============================================*/
+			::-webkit-input-placeholder 
+			{
+			   font-family: Open Sans;
+			   font-weight: 300; 
+			   font-size: 1.2rem;
+			   text-indent: 45px;
+			}
+
+			body 
+			{
+				font-family: Open Sans !important;
+				overflow:hidden; margin: -0px; 
+				background-image: url(../img/bg.jpg); 
+				font-size: 16px;
+			}
+
+
+			#searchPage>.boxTitle>h1 
+			{
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#searchPage>.boxTitle>h2 
+			{
+				font-size: 0.8rem;
+				font-family: Open Sans;
+				font-weight: 600;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			.searchRibbon
+			{
+				position:absolute; 
+			}
+
+
+			#searchPage>.existingCustomerBox
+			{
+				position: absolute; 
+				border-style: solid; 
+				border-width: 1px; 
+				border-radius: 10px; 
+				border-color: #888;
+				margin-top: 3.515625%;
+				margin-left: 4.5833333333333%;
+				padding-left: 3%;
+				height: 350px;
+				z-index: 0;
+			}
+
+
+			#searchPage>.boxTitle
+			{
+				position: absolute;
+				margin-top: 4.3875%;
+			}
+
+
+			#searchPage>.fullName
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 10.44921875%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			 }
+
+
+			 #searchPage>.fnameImg
+			{
+				position: absolute;
+				margin-top: 10.44921875%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			 }
+
+
+			#searchPage>.phoneNum
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 16.50390625%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+
+			#searchPage>.numImg
+			{
+				position: absolute;
+				margin-top: 16.6%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			}
+
+		
+			#searchPage>.email
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 22.55859375%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+			#searchPage>.emailImg
+			{
+				position: absolute;
+				margin-top: 22.7%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			}
+		
+
+			#searchPage>.searchButton
+			{
+				position: absolute;
+				margin-top:26.59375%;
+				content: url(../img/buttons/btnSmall_default.png);
+				/*content:url("http://imgur.com/SZ8Cm.jpg");*/
+			}
+
+			#searchPage>.searchButton:active  
+			{ 
+				position: absolute;
+				margin-top:26.59375%;
+				content: url(../img/buttons/btnSmall_onclick.png);
+			} 
+
+
+			#searchPage>.searchText
+			{
+				position: absolute;
+				margin-top: 26.59375%;
+				color: #919191;
+				padding-left: 5%;
+				padding-top: 3.5%;
+				font-size: 1.7rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				pointer-events:none;
+			}
+
+			#searchPage>.searchText:before, .searchText:after
+			{
+			    font-size: 1.7rem;
+				content: attr(title);
+				margin-left: 33.5%;
+				margin-top: 24.5%;
+				color: #f2f2f2;
+				position: absolute;
+			}
+
+
+			#searchPage>.searchText:before { top: 1px; left: 1px }
+			#searchPage>.searchText:after  { top: 1px; left: 1px }
+
+			#searchPage>.searchImg
+			{
+				position: absolute;
+				margin-top: 31%;
+				pointer-events:none;
+			}
+
+
+			.chooseCustomer
+			{
+				position: relative;
+				margin-top: 4.3875%;
+			}
+
+
+			#searchPage>.resultDiv>.chooseCustomer>a
+			{
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#searchPage>.resultCount
+			{
+				margin-top: 38%;
+				position: absolute;
+			}
+
+
+			#searchPage>.resultCount>h3
+			{
+				position: relative;
+				color: #000;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+
+			#searchPage>.resultDiv
+			{
+				max-height: 600px;
+				overflow: auto;
+			}
+
+
+			#searchPage>.resultDiv>.results
+			{
+				position: relative;
+				display: inline-block;
+				border-radius: 4px;
+				box-shadow: 0px 4px 5px #919191;
+				background-color: #fff;
+				z-index: 1;
+				height: 100px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				font-family: Open Sans;
+				font-weight: 600;
+				float: left;
+				margin-bottom: 2%;
+			}
+
+			#searchPage>.resultDiv>.firstResults
+			{
+				margin-top: 2.6%;
+			}
+
+
+			#searchPage>.resultDiv>.results>.name
+			{
+				position: absolute;
+				padding-left: 15px;
+				padding-top: 5px;
+				font-family: Open Sans;
+				font-weight: 800;
+			}
+
+
+			#searchPage>.resultDiv>.results>.address
+			{
+				position: absolute;
+				padding-left: 15px;
+				padding-top: 5px;
+				font-family: Open Sans;
+				font-weight: 300;
+				font-size: 1rem;
+				line-height: 1.5;
 			}
 
 		}
