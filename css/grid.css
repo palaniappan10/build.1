@@ -1,8 +1,9 @@
-.container  {
-			width:100%;
-			position:relative;
-			margin-left: 1.61458%;
-			}
+.container  
+{
+	width:100%;
+	position:relative;
+	margin-left: 1.61458%;
+}
 .gridImage
 {
 	width:100%;
@@ -46,20 +47,3 @@
 .push_fourteen{margin-left: 86.041666666667%;}
 .push_fifteen{margin-left: 92.1875%;}
 .push_sixteen{margin-left: 98.333333333333%;}
-
-/*.pull_one {margin-left: 7.76041%;}
-.pull_two {margin-left: %;}
-.pull_three{margin-left: %;}
-.pull_four{margin-left: %;}
-.pull_five{margin-left: %;}
-.pull_six{margin-left: %;}
-.pull_seven{margin-left: %;}
-.pull_eight{margin-left: %;}
-.pull_nine{margin-left: %;}
-.pull_ten{margin-left: %;}
-.pull_eleven{margin-left:%;}
-.pull_twelve{margin-left: %;}
-.pull_thirteen{margin-left: %;}
-.pull_fourteen{margin-left: %;}
-.pull_fifteen{margin-left: %;}
-.pull_sixteen{margin-left: %;}*/

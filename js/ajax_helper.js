@@ -379,8 +379,8 @@ var	phone_number;
 			if(selected == '1')
 			{
 			hideall();
-			$('#search').addClass( "pt-page-rotateSlideIn");
-			$('#search').show();
+			$('#searchPage').addClass( "pt-page-rotateSlideIn");
+			$('#searchPage').show();
 			}
 			else if( selected == '2') 
 			{
@@ -389,6 +389,17 @@ var	phone_number;
 			$('#addNewCustomer').show();
 			}
 			else if(selected == '3')
+			{
+			hideall();
+			$('#addedCustomer').show();
+			}
+			else if(selected == '4')
+			{
+			hideall();
+			$('#profilePage').addClass( "pt-page-rotateSlideIn");
+			$('#profilePage').show();
+			}
+			else if(selected == '5')
 			{
 			hideall();
 			$('#customer').addClass( "pt-page-rotateSlideIn");
@@ -401,6 +412,8 @@ var	phone_number;
 		$('#homePage').hide();
 		$('#addNewCustomer').hide();
 		$('#addedCustomer').hide();
+		$('#searchPage').hide();
+		$('#profilePage').hide();
 	}
 
 	function login_test()

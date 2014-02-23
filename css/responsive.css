@@ -1,11 +1,6 @@
 
 /*Images alone*/
 
-	@media (min-width:1024px ) and (max-width:1024px ) and (min-device-pixel-ratio: 1) {
-
-		}
-
-
 	@media (min-width:1280px ) and (max-width:1280px ) and (min-device-pixel-ratio: 1.5) {
 
 		}
@@ -872,6 +867,324 @@
 				line-height: 1.5;
 			}
 
+		/*===========================search page=============================================*/
+
+			::-webkit-scrollbar 
+			{
+			    display:none;
+			}
+
+
+			#profilePage>.boxTitle > h1 
+			{
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#profilePage>.boxTitle> h2 
+			{
+				font-size: 0.8rem;
+				font-family: Open Sans;
+				font-weight: 600;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#profilePage>.homeRibbon
+			{
+				position:absolute; 
+			}
+
+			#profilePage>.existingCustomerBox
+			{
+				position: absolute; 
+				border-style: solid; 
+				border-width: 1px; 
+				border-radius: 10px; 
+				border-color: #888;
+				margin-top: 3.515625%;
+				margin-left: 4.5833333333333%;
+				padding-left: 3%;
+				height: 536px;
+				z-index: 0;
+			}
+
+
+			#profilePage>.boxTitle
+			{
+				position: absolute;
+				margin-top: 4.3875%;
+			}
+
+
+			#profilePage>.fullName
+			{
+				position: absolute;
+				background-color: rgba(0,0,0,0);
+				margin-top: 9.44921875%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			 }
+
+
+			 #profilePage>.fullName >h1
+			 {
+			 	font-size: 1rem;
+				font-family: Open Sans;
+				font-weight: 600;
+				color: #2c2b2b;
+				margin: 0px;
+			 }
+
+
+			#profilePage>.fnameImg
+			{
+				position: absolute;
+				margin-top: 9.44921875%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:0px;
+			}
+
+
+			#profilePage>.phoneNum
+			{
+				position: absolute;
+				border-radius: 4px;
+				margin-top: 13.50390625%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 300;
+			}
+
+
+			#profilePage>.phoneNum>h1
+			{
+				font-size: 1rem;
+				font-family: Open Sans;
+				font-weight: 300;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#profilePage>.numImg
+			{
+				position: absolute;
+				margin-top: 13.6%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:0px;
+			}
+
+		
+			#profilePage>.email
+			{
+				position: absolute;
+				margin-top: 17.55859375%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 300;
+			}
+
+
+			#profilePage>.email>h1
+			{
+				font-size: 1rem;
+				font-family: Open Sans;
+				font-weight: 300;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#profilePage>.emailImg
+			{
+				position: absolute;
+				margin-top: 17.7%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:0px;
+			}
+
+
+			#profilePage>.address
+			{
+				padding: 0px;
+				margin-top: 22.1015625%;
+				padding-left: 45px;
+				font-size: 1.2rem;
+				position: absolute;
+				height: 119px;
+				resize: none;
+				line-height: 2.1;
+				font-family: Open Sans;
+				font-weight: 300;
+			}
+
+
+			#profilePage>.address>h1
+			{
+				font-size: 1rem;
+				font-family: Open Sans;
+				font-weight: 300;
+				color: #2c2b2b;
+				margin: 0px;
+				line-height: 1.5;
+			}
+
+			#profilePage>.addressImg
+			{
+				position: absolute;
+				margin-top: 22.1015625%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:0px;
+			}
+
+
+			#profilePage>.newCustomerButton
+			{
+				position: absolute;
+				margin-top:39.921875%;
+				content: url(../img/buttons/btnSmall_default.png);
+			}
+
+			#profilePage> .newCustomerButton:active  
+			{
+				position: absolute;
+				margin-top:39.921875%;
+				content: url(../img/buttons/btnSmall_onclick.png);
+			} 
+
+			#profilePage> .newCustomerText
+			{
+				position: absolute;
+				margin-top: 40.2%;
+				color: #919191;
+				padding-left: 5%;
+				padding-top: 3.5%;
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				pointer-events:none;
+			}
+
+			#profilePage> .newCustomerText:before, .newCustomerText:after
+			{
+				font-size: 1.6rem;
+				content: attr(title);
+				color: #f2f2f2;
+				position: absolute;
+				margin-left: 19.9%;
+				margin-top: 14.5%;
+			}
+
+			#profilePage> .newCustomerText:before { top: 1px; left: 1px }
+			#profilePage> .newCustomerText:after  { top: 1px; left: 1px }
+
+			#profilePage> .newCustomerImg
+			{
+				position: absolute;
+				margin-top: 44.5%;
+				pointer-events:none;
+			}
+
+			#profilePage>.searchButton
+			{
+				position: absolute;
+				margin-top:29.59375%;
+				content: url(../img/buttons/btnSmall_default.png);
+				/*content:url("http://imgur.com/SZ8Cm.jpg");*/
+			}
+
+			#profilePage>.searchButton:active  
+			{ 
+				position: absolute;
+				margin-top:29.59375%;
+				content: url(../img/buttons/btnSmall_onclick.png);
+			} 
+
+
+			#profilePage>.searchText
+			{
+				position: absolute;
+				margin-top: 29.59375%;
+				color: #919191;
+				padding-left: 5%;
+				padding-top: 3.5%;
+				font-size: 1.5rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				pointer-events:none;
+			}
+
+			#profilePage>.searchText:before, .searchText:after
+			{
+			    font-size: 1.5rem;
+				content: attr(title);
+				margin-left: 26.9%;
+				margin-top: 19%;
+				color: #f2f2f2;
+				position: absolute;
+			}
+
+
+			#profilePage>.searchText:before { top: 1px; left: 1px }
+			#profilePage>.searchText:after  { top: 1px; left: 1px }
+
+
+			#profilePage>.searchImg
+			{
+				position: absolute;
+				margin-top: 34%;
+				pointer-events:none;
+			}
+
+			#profilePage>.lastEdited
+			{
+				position: absolute;
+				margin-top: 51%;
+			}
+
+
+			#profilePage>.lastEdited>.head
+			{
+				font-size: 0.8rem;
+				color: #000;
+				position: relative;
+			}
+
+			#profilePage>.lastEdited>.headDetail
+			{
+				font-size: 0.8rem;
+				color: #000;
+				position: relative;
+			}
+
 		}
 
 
@@ -886,8 +1199,7 @@
 
 /*page animation*/
 
-
-/* slide */
+	/* slide */
 	.pt-page-rotateSlideOut {
 		-webkit-animation: rotateSlideOut 1s both ease;
 		-moz-animation: rotateSlideOut 1s both ease;
