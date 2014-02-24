@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype>
 
 <html>
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
-
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1 ,target-densitydpi=device-dpi" />
+<meta name='apple-mobile-web-app-capable' content='yes' />
 <!-- css linking -->
 <!-- <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" /> -->
 <link rel="stylesheet" type="text/css" href="css/grid.css" media="screen" />
@@ -12,198 +12,198 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,800' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 
-<body>
-<title>Gatsby</title>
+	<body>
+		<title>Gatsby</title>
 
-<img style="position:absolute; width:100%;"/>  <!-- src="img\grid.png" -->
+	<!-- <img style="position:absolute; width:100%;"/>  -->
 
-<!--================= Home Page =========================================== -->
+	<!--================= Home Page =========================================== -->
 
-	<div class="container" id="homePage" style="display:none">
-		<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
+		<div class="container" id="homePage" >
+			<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
 
-		<div class="existingCustomerBox push_one six"></div>
+			<div class="existingCustomerBox push_one six"></div>
 
-		<div class="push_one boxTitle">
-			<h1>Existing Customer</h1>
-			<h2>Enter any one of the details&mdash;</h2>
+			<div class="push_one boxTitle">
+				<h1>Existing Customer</h1>
+				<h2>Enter any one of the details&mdash;</h2>
+			</div>
+
+			<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Full Name"/>
+			<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Phone Number"/>
+			<input class="email six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Email"/>
+
+			<img class="fnameImg push_one" src="img\name.png" > </img>
+			<img class="numImg push_one" src="img\phone.png" > </img>
+			<img class="emailImg push_one" src="img\email.png" > </img>
+
+			<img onclick="forward(1)" class="searchButton eight">
+			<a class="push_one searchText" title="Search">Search</a>
+			<img class="searchImg push_six" src="img\buttons\search.png">
+
+			<div class="push_three ortext"><a>&mdash; or &mdash;</a></div>
+
+			<img onclick="forward(2)" class="newCustomerButton eight">
+			<a class=" push_one newCustomerText" title="New Customer">New Customer</a>
+			<img class="newCustomerImg push_six" src="img\buttons\newCustomer.png">
 		</div>
 
-		<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Full Name"/>
-		<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Phone Number"/>
-		<input class="email six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Email"/>
 
-		<img class="fnameImg push_one" src="img\name.png" > </img>
-		<img class="numImg push_one" src="img\phone.png" > </img>
-		<img class="emailImg push_one" src="img\email.png" > </img>
+	<!--================= New Customer Page =================================== -->
 
-		<img onclick="forward(1)" class="searchButton eight">
-		<a class="push_one searchText" title="Search">Search</a>
-		<img class="searchImg push_six" src="img\buttons\search.png">
+		<div class="container" id="addNewCustomer" style="display:none">
+			<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
+			<div class="existingCustomerBox push_one six"></div>
 
-		<div class="push_three ortext"><a>&mdash; or &mdash;</a></div>
+			<div class="push_one boxTitle">
+				<h1>Add New Customer</h1>
+				<h2>Enter details&mdash;</h2>
+			</div>
 
-		<img onclick="forward(2)" class="newCustomerButton eight">
-		<a class=" push_one newCustomerText" title="New Customer">New Customer</a>
-		<img class="newCustomerImg push_six" src="img\buttons\newCustomer.png">
-	</div>
+			<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Full Name"/>
+			<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Phone Number"/>
+			<input class="email six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Email"/>
+			<textarea class="address six push_one" rows="3" type="text" name="Full_Name" id="Full_Name" placeholder="Address"></textarea>
 
+			<img class="fnameImg push_one" src="img\name.png" >
+			<img class="numImg push_one" src="img\phone.png" >
+			<img class="emailImg push_one" src="img\email.png" >
+			<img class="addressImg push_one" src="img\address.png" >
 
-<!--================= New Customer Page =================================== -->
-
-	<div class="container" id="addNewCustomer" style="display:none">
-		<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
-		<div class="existingCustomerBox push_one six"></div>
-
-		<div class="push_one boxTitle">
-			<h1>Add New Customer</h1>
-			<h2>Enter details&mdash;</h2>
-		</div>
-
-		<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Full Name"/>
-		<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Phone Number"/>
-		<input class="email six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Email"/>
-		<textarea class="address six push_one" rows="3" type="text" name="Full_Name" id="Full_Name" placeholder="Address"></textarea>
-
-		<img class="fnameImg push_one" src="img\name.png" >
-		<img class="numImg push_one" src="img\phone.png" >
-		<img class="emailImg push_one" src="img\email.png" >
-		<img class="addressImg push_one" src="img\address.png" >
-
-		
-		<img onclick="forward(3)" class="newCustomerButton eight">
-		<a class=" push_one newCustomerText" title="Add to Gatsby">Add to Gatsby</a>
-		<img class="newCustomerImg push_six" src="img\buttons\add.png">
-	</div>
-
-<!--================= Added Page ========================================== -->
-
-	<div class="container" id="addedCustomer" style="display:none">
-		<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
-		
-		<div class="existingCustomerBox push_one six">
 			
-			<div class="addedText push_two">
-				<h1>Added!</h1>
-				<h2>Welcome to the <br>Gatsby Family.</h2>
+			<img onclick="forward(3)" class="newCustomerButton eight">
+			<a class=" push_one newCustomerText" title="Add to Gatsby">Add to Gatsby</a>
+			<img class="newCustomerImg push_six" src="img\buttons\add.png">
+		</div>
+
+	<!--================= Added Page ========================================== -->
+
+		<div class="container" id="addedCustomer" style="display:none">
+			<img class=" homeRibbon push_eleven five" src ="img/home_ribbon.png">
+			
+			<div class="existingCustomerBox push_one six">
+				
+				<div class="addedText push_two">
+					<h1>Added!</h1>
+					<h2>Welcome to the <br>Gatsby Family.</h2>
+				</div>
+
 			</div>
 
 		</div>
 
-	</div>
+	<!--================= search Page ========================================== -->
 
-<!--================= search Page ========================================== -->
+		<div class="container" id="searchPage" style="display:none">
 
-	<div class="container" id="searchPage" style="display:none">
+			<div class="existingCustomerBox push_one six"></div>
 
-		<div class="existingCustomerBox push_one six"></div>
-
-		<div class="push_one boxTitle">
-			<h1>Existing Customer</h1>
-			<h2>Enter any one of the details&mdash;</h2>
-		</div>
-
-		<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Full Name"/>
-		<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Phone Number"/>
-		<input class="email six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Email"/>
-
-		<img class="fnameImg push_one" src="img\name.png" > </img>
-		<img class="numImg push_one" src="img\phone.png" > </img>
-		<img class="emailImg push_one" src="img\email.png" > </img>
-
-		<img onclick="forward(1)" class="searchButton eight">
-		<a class="push_one searchText" title="Search">Search</a>
-		<img class="searchImg push_six" src="img\buttons\search.png">
-
-		<div class="push_four resultCount">
-			<h3>Showing 15 results</h3>
-		</div>
-
-		<div class="resultDiv">
-
-			<div class="push_nine chooseCustomer">
-				<a>Which one is you?</a>
+			<div class="push_one boxTitle">
+				<h1>Existing Customer</h1>
+				<h2>Enter any one of the details&mdash;</h2>
 			</div>
 
-			<div onclick="forward(4)" class="push_nine six results firstResults">
-				<a class="name">Palaniappan </a><br>
-				<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
-			</div>
-			<div onclick="forward(4)" class="push_nine six results">
-				<a class="name">Palaniappan </a><br>
-				<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
-			</div>
+			<input class="fullName six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Full Name"/>
+			<input class="phoneNum six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Phone Number"/>
+			<input class="email six push_one" type="text" name="Full_Name" id="Full_Name" placeholder="Email"/>
 
-			<div onclick="forward(4)" class="push_nine six results">
-				<a class="name">Palaniappan </a><br>
-				<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
-			</div>
+			<img class="fnameImg push_one" src="img\name.png" > </img>
+			<img class="numImg push_one" src="img\phone.png" > </img>
+			<img class="emailImg push_one" src="img\email.png" > </img>
 
-			<div onclick="forward(4)" class="push_nine six results">
-				<a class="name">Palaniappan </a><br>
-				<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
+			<img onclick="forward(1)" class="searchButton eight">
+			<a class="push_one searchText" title="Search">Search</a>
+			<img class="searchImg push_six" src="img\buttons\search.png">
+
+			<div class="push_four resultCount">
+				<h3>Showing 15 results</h3>
 			</div>
 
-			<div onclick="forward(4)" class="push_nine six results">
-				<a class="name">Palaniappan </a><br>
-				<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
+			<div class="resultDiv">
+
+				<div class="push_nine chooseCustomer">
+					<a>Which one is you?</a>
+				</div>
+
+				<div onclick="forward(4)" class="push_nine six results firstResults">
+					<a class="name">Palaniappan </a><br>
+					<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
+				</div>
+				<div onclick="forward(4)" class="push_nine six results">
+					<a class="name">Palaniappan </a><br>
+					<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
+				</div>
+
+				<div onclick="forward(4)" class="push_nine six results">
+					<a class="name">Palaniappan </a><br>
+					<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
+				</div>
+
+				<div onclick="forward(4)" class="push_nine six results">
+					<a class="name">Palaniappan </a><br>
+					<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
+				</div>
+
+				<div onclick="forward(4)" class="push_nine six results">
+					<a class="name">Palaniappan </a><br>
+					<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
+				</div>
+
+				<div onclick="forward(4)" class="push_nine six results">
+					<a class="name">Palaniappan </a><br>
+					<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
+				</div>
+			</div>
+		</div>
+
+	<!--================= profile Page ========================================== -->
+
+		<div class="container" id="profilePage" style="display:none">
+
+			<div class="existingCustomerBox push_one six"></div>
+
+			<div class="push_one boxTitle">
+				<h1>Customer Profile</h1>
 			</div>
 
-			<div onclick="forward(4)" class="push_nine six results">
-				<a class="name">Palaniappan </a><br>
-				<a class="address">+91 90030 07005 <br> E48 second floor Ihfd nagar</a>
+			<div class="fullName six push_one">
+			<h1>Palaniappan</h1>
+			</div>
+			
+			<div class="phoneNum six push_one" >
+				<h1>+91 96004 98894</h1>
+			</div>
+
+			<div class="email six push_one" >
+				<h1>palaniappanch@gmail.com</h1>
+			</div>
+
+			<div class="address six push_one" >
+				<h1>E48 second floor, <br> IHFD nagar pallavaram<br> Chennai-600043</h1>
+			</div>
+
+			<img class="fnameImg push_one" src="img\name.png" >
+			<img class="numImg push_one" src="img\phone.png" >
+			<img class="emailImg push_one" src="img\email.png" >
+			<img class="addressImg push_one" src="img\address.png" >
+
+			<img onclick="forward()" class="searchButton eight">
+			<a class="push_one searchText" title="Edit profile">Edit profile</a>
+			<img class="searchImg push_six" src="img\buttons\search.png">
+			
+			<img onclick="forward()" class="newCustomerButton eight">
+			<a class=" push_one newCustomerText" title="Measurements">Measurements</a>
+			<img class="newCustomerImg push_six" src="img\buttons\add.png">
+
+			<div class="push_one lastEdited">
+			<a class="head">LAST EDITED&mdash; <br> A month back</a>
 			</div>
 		</div>
-	</div>
 
-<!--================= profile Page ========================================== -->
+	<!--================= Page ========================================== -->
 
-	<div class="container" id="profilePage">
-
-		<div class="existingCustomerBox push_one six"></div>
-
-		<div class="push_one boxTitle">
-			<h1>Customer Profile</h1>
-		</div>
-
-		<div class="fullName six push_one">
-		<h1>Palaniappan</h1>
-		</div>
-		
-		<div class="phoneNum six push_one" >
-			<h1>+91 96004 98894</h1>
-		</div>
-
-		<div class="email six push_one" >
-			<h1>palaniappanch@gmail.com</h1>
-		</div>
-
-		<div class="address six push_one" >
-			<h1>E48 second floor, <br> IHFD nagar pallavaram<br> Chennai-600043</h1>
-		</div>
-
-		<img class="fnameImg push_one" src="img\name.png" >
-		<img class="numImg push_one" src="img\phone.png" >
-		<img class="emailImg push_one" src="img\email.png" >
-		<img class="addressImg push_one" src="img\address.png" >
-
-		<img onclick="forward()" class="searchButton eight">
-		<a class="push_one searchText" title="Edit profile">Edit profile</a>
-		<img class="searchImg push_six" src="img\buttons\search.png">
-		
-		<img onclick="forward()" class="newCustomerButton eight">
-		<a class=" push_one newCustomerText" title="Measurements">Measurements</a>
-		<img class="newCustomerImg push_six" src="img\buttons\add.png">
-
-		<div class="push_one lastEdited">
-		<a class="head">LAST EDITED&mdash; <br> A month back</a>
-		</div>
-	</div>
-
-<!--================= Page ========================================== -->
-
-	<script src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/ajax_helper.js"></script>
-</body>
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/ajax_helper.js"></script>
+	</body>
 </html>
 
