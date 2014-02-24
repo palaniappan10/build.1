@@ -1167,14 +1167,1159 @@
 		}
 
 
-/*	@media (min-width:1280px ) and (max-width:1280px ) {
+	@media (min-width:1280px ) and (max-width:1280px ) {
+
+		/*===========================Home Page==============================================*/
+
+			::-webkit-input-placeholder 
+			{
+			   font-family: Open Sans;
+			   font-weight: 300; 
+			   font-size: 1.2rem;
+			   text-indent: 45px;
+			}
+
+			body 
+			{
+				font-family: Open Sans;
+				margin: -0px; 
+				background-image: url(../img/bg.jpg); 
+				font-size: 16px;
+			}
+
+
+			#homePage>.boxTitle>h1 
+			{
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#homePage>.boxTitle>h2 
+			{
+				font-size: 0.8rem;
+				font-family: Open Sans;
+				font-weight: 600;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			.homeRibbon
+			{
+				position:absolute; 
+			}
+
+
+			#homePage>.existingCustomerBox
+			{
+				position: absolute; 
+				border-style: solid; 
+				border-width: 1px; 
+				border-radius: 10px; 
+				border-color: #888;
+				margin-top: 3.515625%;
+				margin-left: 4.5833333333333%;
+				padding-left: 3%;
+				height: 350px;
+				z-index: 0;
+			}
+
+
+			#homePage>.boxTitle
+			{
+				position: absolute;
+				margin-top: 4.3875%;
+			}
+
+
+			#homePage>.fullName
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 10.44921875%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			 }
+
+
+			 #homePage>.fnameImg
+			{
+				position: absolute;
+				margin-top: 10.44921875%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			 }
+
+
+			#homePage>.phoneNum
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 16.50390625%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+
+			#homePage>.numImg
+			{
+				position: absolute;
+				margin-top: 16.6%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			}
+
+		
+			#homePage>.email
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 22.55859375%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+			#homePage>.emailImg
+			{
+				position: absolute;
+				margin-top: 22.7%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			}
+		
+
+			#homePage>.searchButton
+			{
+				position: absolute;
+				margin-top:26.59375%;
+				content: url(../img/buttons/btnSmall_default.png);
+				/*content:url("http://imgur.com/SZ8Cm.jpg");*/
+			}
+
+			#homePage>.searchButton:active  
+			{ 
+				position: absolute;
+				margin-top:26.59375%;
+				content: url(../img/buttons/btnSmall_onclick.png);
+			} 
+
+
+			#homePage>.searchText
+			{
+				position: absolute;
+				margin-top: 26.59375%;
+				color: #919191;
+				padding-left: 5%;
+				padding-top: 3.5%;
+				font-size: 1.7rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				pointer-events:none;
+			}
+
+
+			#homePage> .searchText:after
+			{
+			    font-size: 1.7rem;
+				content: attr(title);
+				margin-left: 33.5%;
+				margin-top: 24.5%;
+				color: #f2f2f2;
+				position: absolute;
+			}
+
+
+			#homePage>.searchText:before { top: 1px; left: 1px }
+			#homePage>.searchText:after  { top: 1px; left: 1px }
+
+
+			#homePage>.searchImg
+			{
+				position: absolute;
+				margin-top: 31%;
+				pointer-events:none;
+			}
+
+			#homePage>.newCustomerButton
+			{
+				position: absolute;
+				margin-top:44.921875%;
+				content: url(../img/buttons/btnSmall_default.png);
+			}
+
+			#homePage> .newCustomerButton:active  
+			{
+				position: absolute;
+				margin-top:44.921875%;
+				content: url(../img/buttons/btnSmall_onclick.png);
+			} 
+
+			#homePage> .newCustomerText
+			{
+				position: absolute;
+				margin-top: 45.2%;
+				color: #919191;
+				padding-left: 5%;
+				padding-top: 3.5%;
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				pointer-events:none;
+			}
+
+			#homePage> .newCustomerText:before, .newCustomerText:after
+			{
+				font-size: 1.6rem;
+				content: attr(title);
+				color: #f2f2f2;
+				position: absolute;
+				margin-left: 19.9%;
+				margin-top: 14.5%;
+			}
+
+			#homePage> .newCustomerText:before { top: 1px; left: 1px }
+			#homePage> .newCustomerText:after  { top: 1px; left: 1px }
+
+			#homePage> .newCustomerImg
+			{
+				position: absolute;
+				margin-top: 49.5%;
+				pointer-events:none;
+			}
+
+			#homePage> .ortext
+			{
+				font-family: Abril Fatface;
+				font-size: 2rem;
+				position: absolute;
+				display: inline-block;
+				margin-top: 40%;
+			}
+
+		/*===========================New customer page======================================*/
+			
+			::-webkit-scrollbar 
+			{
+			    display:none;
+			}
+
+
+			#addNewCustomer>.boxTitleCustomerPage > h1 
+			{
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#addNewCustomer>.boxTitleCustomerPage> h2 
+			{
+				font-size: 0.8rem;
+				font-family: Open Sans;
+				font-weight: 600;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#addNewCustomer>.existingCustomerBoxCustomerPage
+			{
+				position: absolute; 
+				border-style: solid; 
+				border-width: 1px; 
+				border-radius: 10px; 
+				border-color: #888;
+				margin-top: 3.515625%;
+				margin-left: 4.5833333333333%;
+				padding-left: 3%;
+				height: 536px;
+				z-index: 0;
+			}
+
+
+			#addNewCustomer>.boxTitleCustomerPage
+			{
+				position: absolute;
+				margin-top: 4.3875%;
+			}
+
+
+			#addNewCustomer>.fullNameCustomerPage
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 10.44921875%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			 }
+
+
+			 #addNewCustomer>.fnameImgCustomerPage
+			{
+				position: absolute;
+				margin-top: 10.44921875%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			 }
+
+
+			#addNewCustomer>.phoneNumCustomerPage
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 16.50390625%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+
+			#addNewCustomer>.numImgCustomerPage
+			{
+				position: absolute;
+				margin-top: 16.6%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			}
+
+		
+			#addNewCustomer>.emailCustomerPage
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 22.55859375%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+
+			#addNewCustomer>.emailImgCustomerPage
+			{
+				position: absolute;
+				margin-top: 22.7%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			}
+
+
+			#addNewCustomer>.addressCustomerPage
+			{
+				background-image: -webkit-linear-gradient(white, white 38px, #ccc 39px, #ccc 38px, white 39px);
+				background-size: 100% 40px;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				padding: 0px;
+				margin-top: 29.1015625%;
+				text-indent: 45px;
+				font-size: 1.2rem;
+				position: absolute;
+				height: 119px;
+				resize: none;
+				line-height: 2.1;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+
+
+			#addNewCustomer>.addressImgCustomerPage
+			{
+				position: absolute;
+				margin-top: 29.1015625%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			}
+
+
+			#addNewCustomer>.addCustomerButton
+			{
+				position: absolute;
+				margin-top:44.921875%;
+				content: url(../img/buttons/btnSmall_default.png);
+			}
+
+			#addNewCustomer> .addCustomerButton:active  
+			{
+				position: absolute;
+				margin-top:44.921875%;
+				content: url(../img/buttons/btnSmall_onclick.png);
+			} 
+
+			#addNewCustomer> .addCustomerText
+			{
+				position: absolute;
+				margin-top: 45.2%;
+				color: #919191;
+				padding-left: 5%;
+				padding-top: 3.5%;
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				pointer-events:none;
+			}
+
+			#addNewCustomer> .addCustomerText:after
+			{
+				font-size: 1.6rem;
+				content: attr(title);
+				color: #f2f2f2;
+				position: absolute;
+				margin-left: 19.9%;
+				margin-top: 14.5%;
+			}
+
+			#addNewCustomer> .addCustomerText:before { top: 1px; left: 1px }
+			#addNewCustomer> .addCustomerText:after  { top: 1px; left: 1px }
+
+			#addNewCustomer> .newCustomerImgCustomerPage
+			{
+				position: absolute;
+				margin-top: 49.5%;
+				pointer-events:none;
+			}
+
+		/*===========================Added page=============================================*/
+			
+			#addedCustomer>.existingCustomerBoxAddedPage
+			{
+				position: absolute; 
+				border-style: solid; 
+				border-width: 1px; 
+				border-radius: 4px; 
+				border-color: #888;
+				margin-top: 3.515625%;
+				margin-left: 4.5833333333333%;
+				padding-left: 3%;
+				height: 536px;
+				z-index: 0;
+				background-image: -moz-linear-gradient( 90deg, rgb(208,164,78) 0%, rgb(246,193,94) 100%);
+				background-image: -webkit-linear-gradient( 90deg, rgb(208,164,78) 0%, rgb(246,193,94) 100%);
+				background-image: -ms-linear-gradient( 90deg, rgb(208,164,78) 0%, rgb(246,193,94) 100%);
+			}
+
+			#addedCustomer>.existingCustomerBoxAddedPage>.addedTextAddedPage
+			{
+				position: absolute;
+				margin-top: 50%;
+			}
+
+			#addedCustomer>.existingCustomerBoxAddedPage>.addedTextAddedPage> h1 
+			{
+				font-size: 3rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				text-shadow: 0px 2px 2px #919191;
+				color: #fff;
+				margin: 0px;
+				padding-left: 31px;
+			}
+
+
+			#addedCustomer>.existingCustomerBoxAddedPage>.addedTextAddedPage> h2 
+			{
+				font-size: 2rem;
+				font-family: Open Sans;
+				font-weight: 600;
+				text-shadow: 0px 2px 2px #919191;
+				color: #fff;
+				margin: 0px;
+			}
+
+		/*===========================search page=============================================*/
+			::-webkit-input-placeholder 
+			{
+			   font-family: Open Sans;
+			   font-weight: 300; 
+			   font-size: 1.2rem;
+			   text-indent: 45px;
+			}
+
+			body 
+			{
+				font-family: Open Sans !important;
+				overflow:hidden; margin: -0px; 
+				background-image: url(../img/bg.jpg); 
+				font-size: 16px;
+			}
+
+
+			#searchPage>.boxTitleSearchPage>h1 
+			{
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#searchPage>.boxTitleSearchPage>h2 
+			{
+				font-size: 0.8rem;
+				font-family: Open Sans;
+				font-weight: 600;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#searchPage>.existingCustomerBoxSearchPage
+			{
+				position: absolute; 
+				border-style: solid; 
+				border-width: 1px; 
+				border-radius: 10px; 
+				border-color: #888;
+				margin-top: 3.515625%;
+				margin-left: 4.5833333333333%;
+				padding-left: 3%;
+				height: 350px;
+				z-index: 0;
+			}
+
+
+			#searchPage>.boxTitleSearchPage
+			{
+				position: absolute;
+				margin-top: 4.3875%;
+			}
+
+
+			#searchPage>.fullNameSearchPage
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 10.44921875%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			 }
+
+
+			 #searchPage>.fnameImgSearchPage
+			{
+				position: absolute;
+				margin-top: 10.44921875%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			 }
+
+
+			#searchPage>.phoneNumSearchPage
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 16.50390625%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+
+			#searchPage>.numImgSearchPage
+			{
+				position: absolute;
+				margin-top: 16.6%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			}
+
+		
+			#searchPage>.emailSearchPage
+			{
+				position: absolute;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #888;
+				border-radius: 4px;
+				background-color: #f5f5f5;
+				box-shadow: 0px 2px 0px 0px #fff;
+				margin-top: 22.55859375%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+			#searchPage>.emailImgSearchPage
+			{
+				position: absolute;
+				margin-top: 22.7%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:8px;
+			}
+		
+
+			#searchPage>.searchButtonSearchPage
+			{
+				position: absolute;
+				margin-top:26.59375%;
+				content: url(../img/buttons/btnSmall_default.png);
+				/*content:url("http://imgur.com/SZ8Cm.jpg");*/
+			}
+
+			#searchPage>.searchButtonSearchPage:active  
+			{ 
+				position: absolute;
+				margin-top:26.59375%;
+				content: url(../img/buttons/btnSmall_onclick.png);
+			} 
+
+
+			#searchPage>.searchTextSearchPage
+			{
+				position: absolute;
+				margin-top: 26.59375%;
+				color: #919191;
+				padding-left: 5%;
+				padding-top: 3.5%;
+				font-size: 1.7rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				pointer-events:none;
+			}
+
+			#searchPage> .searchTextSearchPage:after
+			{
+			    font-size: 1.7rem;
+				content: attr(title);
+				margin-left: 33.5%;
+				margin-top: 24.5%;
+				color: #f2f2f2;
+				position: absolute;
+			}
+
+
+			#searchPage>.searchTextSearchPage:before { top: 1px; left: 1px }
+			#searchPage>.searchTextSearchPage:after  { top: 1px; left: 1px }
+
+			#searchPage>.searchImgSearchPage
+			{
+				position: absolute;
+				margin-top: 31%;
+				pointer-events:none;
+			}
+
+
+			.chooseCustomerSearchPage
+			{
+				position: relative;
+				margin-top: 4.3875%;
+			}
+
+
+			#searchPage>.resultDiv>.chooseCustomerSearchPage>a
+			{
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#searchPage>.resultCount
+			{
+				margin-top: 38%;
+				position: absolute;
+			}
+
+
+			#searchPage>.resultCount>h3
+			{
+				position: relative;
+				color: #000;
+				font-family: Open Sans;
+				font-weight: 600;
+			}
+
+
+			#searchPage>.resultDiv
+			{
+				max-height: 600px;
+				position: relative;
+			}
+
+
+			#searchPage>.resultDiv>.results
+			{
+				position: relative;
+				display: inline-block;
+				border-radius: 4px;
+				box-shadow: 0px 4px 5px #919191;
+				background-color: #fff;
+				z-index: 1;
+				height: 100px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				font-family: Open Sans;
+				font-weight: 600;
+				float: left;
+				margin-bottom: 2%;
+			}
+
+			#searchPage>.resultDiv>.firstResults
+			{
+				margin-top: 2.6%;
+			}
+
+
+			#searchPage>.resultDiv>.results>.name
+			{
+				position: absolute;
+				padding-left: 15px;
+				padding-top: 5px;
+				font-family: Open Sans;
+				font-weight: 800;
+			}
+
+
+			#searchPage>.resultDiv>.results>.address
+			{
+				position: absolute;
+				padding-left: 15px;
+				padding-top: 5px;
+				font-family: Open Sans;
+				font-weight: 300;
+				font-size: 1rem;
+				line-height: 1.5;
+			}
+
+		/*===========================Profile page=============================================*/
+
+			::-webkit-scrollbar 
+			{
+			    display:none;
+			}
+
+
+			#profilePage>.boxTitleprofilePage > h1 
+			{
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#profilePage>.boxTitleprofilePage> h2 
+			{
+				font-size: 0.8rem;
+				font-family: Open Sans;
+				font-weight: 600;
+				text-shadow: 0px 2px 2px #fff;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+			#profilePage>.existingCustomerBoxprofilePage
+			{
+				position: absolute; 
+				border-style: solid; 
+				border-width: 1px; 
+				border-radius: 10px; 
+				border-color: #888;
+				margin-top: 3.515625%;
+				margin-left: 4.5833333333333%;
+				padding-left: 3%;
+				height: 536px;
+				z-index: 0;
+			}
+
+
+			#profilePage>.boxTitleprofilePage
+			{
+				position: absolute;
+				margin-top: 4.3875%;
+			}
+
+
+			#profilePage>.fullNameprofilePage
+			{
+				position: absolute;
+				background-color: rgba(0,0,0,0);
+				margin-top: 9.44921875%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 600;
+			 }
+
+
+			 #profilePage>.fullNameprofilePage >h1
+			 {
+			 	font-size: 1rem;
+				font-family: Open Sans;
+				font-weight: 600;
+				color: #2c2b2b;
+				margin: 0px;
+			 }
+
+
+			#profilePage>.fnameImgprofilePage
+			{
+				position: absolute;
+				margin-top: 9.44921875%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:0px;
+			}
+
+
+			#profilePage>.phoneNumprofilePage
+			{
+				position: absolute;
+				border-radius: 4px;
+				margin-top: 13.50390625%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 300;
+			}
+
+
+			#profilePage>.phoneNumprofilePage>h1
+			{
+				font-size: 1rem;
+				font-family: Open Sans;
+				font-weight: 300;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#profilePage>.numImgprofilePage
+			{
+				position: absolute;
+				margin-top: 13.6%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:0px;
+			}
+
+		
+			#profilePage>.emailprofilePage
+			{
+				position: absolute;
+				margin-top: 17.55859375%;
+				z-index: 1;
+				height: 39px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				line-height: 1.8;
+				text-indent: 45px;
+				font-family: Open Sans;
+				font-weight: 300;
+			}
+
+
+			#profilePage>.emailprofilePage>h1
+			{
+				font-size: 1rem;
+				font-family: Open Sans;
+				font-weight: 300;
+				color: #2c2b2b;
+				margin: 0px;
+			}
+
+
+			#profilePage>.emailImgprofilePage
+			{
+				position: absolute;
+				margin-top: 17.7%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:0px;
+			}
+
+
+			#profilePage>.addressprofilePage
+			{
+				padding: 0px;
+				margin-top: 22.1015625%;
+				padding-left: 45px;
+				font-size: 1.2rem;
+				position: absolute;
+				height: 119px;
+				resize: none;
+				line-height: 2.1;
+				font-family: Open Sans;
+				font-weight: 300;
+			}
+
+
+			#profilePage>.addressprofilePage>h1
+			{
+				font-size: 1rem;
+				font-family: Open Sans;
+				font-weight: 300;
+				color: #2c2b2b;
+				margin: 0px;
+				line-height: 1.5;
+			}
+
+			#profilePage>.addressImgprofilePage
+			{
+				position: absolute;
+				margin-top: 22.1015625%;
+				z-index: 1;
+				width: 1.5rem;
+				padding:0px;
+			}
+
+
+			#profilePage>.newCustomerButtonprofilePage
+			{
+				position: absolute;
+				margin-top:39.921875%;
+				content: url(../img/buttons/btnSmall_default.png);
+			}
+
+			#profilePage> .newCustomerButtonprofilePage:active  
+			{
+				position: absolute;
+				margin-top:39.921875%;
+				content: url(../img/buttons/btnSmall_onclick.png);
+			} 
+
+			#profilePage> .newCustomerTextprofilePage
+			{
+				position: absolute;
+				margin-top: 40.2%;
+				color: #919191;
+				padding-left: 5%;
+				padding-top: 3.5%;
+				font-size: 1.6rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				pointer-events:none;
+			}
+
+			#profilePage> .newCustomerTextprofilePage:after
+			{
+				font-size: 1.6rem;
+				content: attr(title);
+				color: #f2f2f2;
+				position: absolute;
+				margin-left: 19.9%;
+				margin-top: 14.5%;
+			}
+
+			#profilePage> .newCustomerTextprofilePage:before { top: 1px; left: 1px }
+			#profilePage> .newCustomerTextprofilePage:after  { top: 1px; left: 1px }
+
+			#profilePage> .newCustomerImgprofilePage
+			{
+				position: absolute;
+				margin-top: 44.5%;
+				pointer-events:none;
+			}
+
+			#profilePage>.searchButtonprofilePage
+			{
+				position: absolute;
+				margin-top:29.59375%;
+				content: url(../img/buttons/btnSmall_default.png);
+				/*content:url("http://imgur.com/SZ8Cm.jpg");*/
+			}
+
+			#profilePage>.searchButtonprofilePage:active  
+			{ 
+				position: absolute;
+				margin-top:29.59375%;
+				content: url(../img/buttons/btnSmall_onclick.png);
+			} 
+
+
+			#profilePage>.searchTextprofilePage
+			{
+				position: absolute;
+				margin-top: 29.59375%;
+				color: #919191;
+				padding-left: 5%;
+				padding-top: 3.5%;
+				font-size: 1.5rem;
+				font-family: Open Sans;
+				font-weight: 800;
+				pointer-events:none;
+			}
+
+			#profilePage> .searchTextprofilePage:after
+			{
+			    font-size: 1.5rem;
+				content: attr(title);
+				margin-left: 26.9%;
+				margin-top: 19%;
+				color: #f2f2f2;
+				position: absolute;
+			}
+
+
+			#profilePage>.searchTextprofilePage:before { top: 1px; left: 1px }
+			#profilePage>.searchTextprofilePage:after  { top: 1px; left: 1px }
+
+
+			#profilePage>.searchImgprofilePage
+			{
+				position: absolute;
+				margin-top: 34%;
+				pointer-events:none;
+			}
+
+			#profilePage>.lastEdited
+			{
+				position: absolute;
+				margin-top: 51%;
+			}
+
+
+			#profilePage>.lastEdited>.head
+			{
+				font-size: 0.8rem;
+				color: #000;
+				position: relative;
+			}
+
+			#profilePage>.lastEdited>.headDetail
+			{
+				font-size: 0.8rem;
+				color: #000;
+				position: relative;
+			}
 
 		}
 
 
 	@media (min-width:2048px ) and (max-width:2048px ) {
 
-		}*/
+		}
 
 /*page animation*/
 
