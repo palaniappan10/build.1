@@ -1,7 +1,7 @@
 
 /*Images alone*/
 
-	@media (min-width:1280px ) and (max-width:1280px ) and (min-device-pixel-ratio: 1.5) {
+/*	@media (min-width:1280px ) and (max-width:1280px ) and (min-device-pixel-ratio: 1.5) {
 
 		}
 
@@ -13,7 +13,7 @@
 
 	@media (min-width:2048px ) and (max-width:2048px ) and (min-device-pixel-ratio: 2) {
 
-		}
+		}*/
 
 /*Rest of all -----------------------------------------------------------------------------------------*/
 
@@ -209,7 +209,8 @@
 				pointer-events:none;
 			}
 
-			#homePage>.searchText:before, .searchText:after
+
+			#homePage> .searchText:after
 			{
 			    font-size: 1.7rem;
 				content: attr(title);
@@ -498,7 +499,7 @@
 				pointer-events:none;
 			}
 
-			#addNewCustomer> .newCustomerText:before, .newCustomerText:after
+			#addNewCustomer> .newCustomerText:after
 			{
 				font-size: 1.6rem;
 				content: attr(title);
@@ -759,7 +760,7 @@
 				pointer-events:none;
 			}
 
-			#searchPage>.searchText:before, .searchText:after
+			#searchPage> .searchText:after
 			{
 			    font-size: 1.7rem;
 				content: attr(title);
@@ -1142,7 +1143,7 @@
 				pointer-events:none;
 			}
 
-			#profilePage>.searchText:before, .searchText:after
+			#profilePage> .searchText:after
 			{
 			    font-size: 1.5rem;
 				content: attr(title);
@@ -1188,14 +1189,14 @@
 		}
 
 
-	@media (min-width:1280px ) and (max-width:1280px ) {
+/*	@media (min-width:1280px ) and (max-width:1280px ) {
 
 		}
 
 
 	@media (min-width:2048px ) and (max-width:2048px ) {
 
-		}
+		}*/
 
 /*page animation*/
 
