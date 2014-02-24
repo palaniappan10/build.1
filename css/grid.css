@@ -1,13 +1,12 @@
 .container  
 {
 	width:100%;
-	position:relative;
 	margin-left: 1.61458%;
 }
 .gridImage
 {
 	width:100%;
-	position:relative;
+	/*position:relative;*/
 	background-image: url(../img/grid.png); 
 	z-index: 1000;
 	opacity: 1;
