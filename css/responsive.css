@@ -804,6 +804,7 @@
 			{
 				max-height: 600px;
 				position: relative;
+				overflow: auto;
 			}
 
 
@@ -1954,6 +1955,7 @@
 			{
 				max-height: 600px;
 				position: relative;
+				overflow: auto;
 			}
 
 
